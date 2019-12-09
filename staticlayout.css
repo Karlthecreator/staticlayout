@@ -1,0 +1,38 @@
+.navbar {
+    background-color:black;
+    display:flex;
+    justify-content: space-between;
+    
+   
+  }
+  .body {
+    background-color:black;
+    display:flex;
+    justify-content: center;
+  }
+  .netflix {
+    height:40px;
+    width:100px;
+    background-color:black;
+   font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:red;
+    font-size:20px;
+    padding:10px
+    
+  }
+  .signin {
+    background-color:red;
+    color:white;
+    border-radius:10px;
+    height:45px;
+    width:75px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:16px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+   
+    
+    
+  }
