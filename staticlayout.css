@@ -2,26 +2,32 @@
     background-color:black;
     display:flex;
     justify-content: space-between;
-    
-   
   }
-  .body {
+  .wrapper{
+    background-color:black;
+  }
+  
+  .all{
     background-color:black;
     display:flex;
-    justify-content: center;
+    justify-content:center;
+    color:white;
+    font-size:30px;
+    font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+  
+  #free{
+    padding:
   }
+
   .netflix {
-    height:40px;
-    width:100px;
-    background-color:black;
-   font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color:red;
-    font-size:20px;
-    padding:10px
+    width: 40px;
+    length: 60px;
     
   }
   .signin {
     background-color:red;
+    margin:55px;
     color:white;
     border-radius:10px;
     height:45px;
@@ -31,8 +37,28 @@
     align-items:center;
     font-size:16px;
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-color:red;
   }
    
-    
-    
-  }
+    .whitewords {
+     
+      background-color:black;
+        display:flex;
+        justify-content:center;
+        color:white;
+        font-size:30px;
+        font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .greenbar {
+      height:40px;
+      width:400px;
+      background-color:limegreen;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      margin:0px 0px 0px 150px
+    }
+
+
+
+
+    }
