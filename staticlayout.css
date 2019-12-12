@@ -43,11 +43,11 @@
     .whitewords {
      
       background-color:black;
-        display:flex;
-        justify-content:center;
+        text-align:center;
         color:white;
         font-size:30px;
         font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin:0px;
     }
     .greenbar {
       height:40px;
@@ -55,10 +55,26 @@
       background-color:limegreen;
       border-top-left-radius: 50px;
       border-bottom-left-radius: 50px;
-      margin:0px 0px 0px 150px
+      margin:0px 0px 0px 150px;
+      color:limegreen;
+      display:flex;
+      justify-content: space-evenly;
     }
-
-
-
-
-    }
+#green {
+  color:limegreen;
+  float:left;
+  background-color:black;
+}
+.ready{
+  color:white;
+  background-color:black;
+  font:50px;
+  text-align:center;
+  font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size:20px;
+  
+}
+.box{
+display:flex;
+align-items: center;
+}
